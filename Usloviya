@@ -1,0 +1,9 @@
+Chisla = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
+Up = []
+index = 0
+while index < len(Chisla):
+    if Chisla[index] < 0:
+        break
+    Up.append(Chisla[index])
+    index += 1
+print(Up)
